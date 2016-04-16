@@ -1,2 +1,2 @@
-# engineering.holgus.com
-Gus Engineering Tema blog
+# engineering.holagus.com
+Gus Engineering Team blog
