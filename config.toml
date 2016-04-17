@@ -1,3 +1,33 @@
 baseurl = "http://engineering.holagus.com/"
-languageCode = "en-us"
 title = "Gus Engineering Team Blog"
+theme = "cocoa"
+
+
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Gus Engineering"
+pygmentsuseclasses = true
+disqusShortname = "gusengineeringblog" # TODO: optional, comment out to disable Disqus
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
+[params]
+Author = "Gus Engineering"
+CacheBuster = true
+DateForm = "Jan 2, 2006"
+DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+Description = "Don't panic"
+Email = "" # TODO:
+FaviconFile = "img/gus.ico"
+GATracker = "UA-76451779-1" # TODO:
+GitHub = "//github.com/holagus"
+Lang = "en"
+LinkedIn = "//www.linkedin.com/company/10092692"
+Twitter = "//twitter.com/holagus_mx"
+Facebook = "//www.facebook.com/HolaGusMx/"
+ExtraCssFiles = [ "/css/override.css" ] # relative to public directory
